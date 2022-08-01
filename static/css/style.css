@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgba(40,43,48, 1) !important;
+}
+
+.header {
+	color: white;
+	background: rgba(114,137,218);
+}
+
+input {
+	padding-top: 5px;
+}
+
+.crud-form {
+	padding-top: 10px;
+}
+
+th:hover {
+	cursor: pointer;
+}
+
+.hide_login_form {
+	display: none;
+}
+
+#footer {
+	color: white !important;
+   	position:fixed;
+   	left:0px;
+   	bottom:0px;
+   	height:25px;
+   	width:100%;
+}
+
+.table-content {
+	color: white !important;
+}
+
+.tr-row-user:first-child{
+	font-weight: bold;
+	color: #ffd800;
+}
+.tr-row-user:nth-child(2) {
+	font-weight: bold;
+	color: rgb(192,192,192);
+}
+.tr-row-user:nth-child(3) {
+	font-weight: bold;
+	color: rgb(205,127,50);
+}
+
+.tr-row-user:last-child {
+	color: rgb(255,25,25);
+}
+
+.tr-row-user:first-child .td-row-user-rating:before {
+	content: "🥇";
+}
+.tr-row-user:nth-child(2) .td-row-user-rating:before {
+	content: "🥈";
+}
+.tr-row-user:nth-child(3) .td-row-user-rating:before {
+	content: "🥉";
+}
